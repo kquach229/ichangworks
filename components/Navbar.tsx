@@ -5,8 +5,12 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='flex flex-col justify-center w-full h-32'>
-      <div className='text-center'>
+      <div className='text-center flex justify-between'>
+        <div />
         <h3>IChangWorks</h3>
+        <div>
+          <ThemeToggler />
+        </div>
       </div>
       <div className='mx-auto space-x-10 mt-5'>
         <Link href={'/wellness'}>WELLNESS</Link>
