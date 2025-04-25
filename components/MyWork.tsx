@@ -8,7 +8,7 @@ const works = [
     id: 1,
     title: 'Barry the Bunny',
     link: 'www.nba.com',
-    img: '/barry_and_the_wisdom_of_the_meadow_formatted.jpg',
+    img: '/barry_and_the_wisdom_of_the_meadow.jpg',
   },
 ];
 
