@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const Hero = () => {
+  // trigger refresh
   return (
     <div className='w-full flex justify-around items-center gap-20'>
       <div className='space-y-10'>
