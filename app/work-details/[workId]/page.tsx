@@ -39,9 +39,9 @@ const WorkDetailsPage = async ({ params }) => {
 
         <div className='place-self-center space-y-10 w-1/2'>
           <h1 className='text-3xl font-bold mb-2'>{work?.title}</h1>
-          <h2 className='text-xl text-gray-600 mb-4'>by {work?.author}</h2>
-          <p className='mb-4 text-gray-800'>{work?.description}</p>
-          <p className='text-sm text-gray-500'>
+          <h2 className='text-xl mb-4 text-gray-500'>by {work?.author}</h2>
+          <p className='mb-4'>{work?.description}</p>
+          <p className='text-sm text-gray-400'>
             Published in {work?.publishedYear}
           </p>
           <Link
