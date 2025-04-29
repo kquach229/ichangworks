@@ -8,13 +8,15 @@ import Link from 'next/link';
 const MyWork = () => {
   return (
     <div>
-      <h3 className='mb-5'>My Work</h3>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
+      <h4 className='mb-5'>My Works</h4>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8'>
         {works &&
           works.map((work) => (
             <Card key={work.id} className='max-w-[200]'>
               <CardHeader>
-                <h5>{work.title}</h5>
+                <span className='text-gray-500 text-md text-center'>
+                  {work.title}
+                </span>
               </CardHeader>
               <CardContent>
                 <Image
@@ -26,8 +28,8 @@ const MyWork = () => {
                 />
               </CardContent>
               <CardFooter>
-                <Link href={`/work-detail/${work.id}`}>
-                  <Button>Purchase</Button>
+                <Link href={`/work-details/${work.id}`}>
+                  <Button>View</Button>
                 </Link>
               </CardFooter>
             </Card>

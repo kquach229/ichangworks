@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <MyWork />
+      <div className='mt-20'>
+        <MyWork />
+      </div>
     </div>
   );
 }

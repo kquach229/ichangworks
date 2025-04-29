@@ -1,12 +1,11 @@
 export const works = [
   {
     id: 1,
-    title: 'Barry the Bunny',
+    title: 'Barry and the Wisdom of the Meadow',
     author: 'Aichang Cai',
-    link: 'www.nba.com',
     img: '/barry_and_the_wisdom_of_the_meadow.jpg',
     description:
-      'Every day we make choices—about what to buy or eat, about financial investments or our children’s health and education, even about the causes we champion or the planet itself. Unfortunately, we often choose poorly. Nudge is about how we make these choices and how we can make better ones. Using dozens of eye-opening examples and drawing on decades of behavioral science research, Nobel Prize winner Richard H. Thaler and Harvard Law School professor Cass R. Sunstein show that no choice is ever presented to us in a neutral way, and that we are all susceptible to biases that can lead us to make bad decisions. But by knowing how people think, we can use sensible “choice architecture” to nudge people toward the best decisions for ourselves, our families, and our society, without restricting our freedom of choice.',
+      'Barry and the Wisdom of the Meadow is a heartwarming storybook filled with gentle lessons and timeless charm. Join Barry, a curious and kind-hearted bunny, and his dear friends—Daisy the deer, Max the monkey, and Oliver the wise old owl—as they explore themes like courage, kindness, gratitude, and respect through simple yet meaningful adventures. Set in a peaceful, nature-filled meadow, each story draws young readers into a world of warmth, wonder, and reflection. With poetic narration and classic storytelling, this book is perfect for bedtime reading, quiet moments, or classroom sharing. Ideal for children ages 4–8 and the young mothers who guide them. Barry and the Wisdom of the Meadow is a treasured collection that reminds us that even the smallest hearts can carry the greatest wisdom. A book for anyone who has ever felt small yet dared to hope. Stories to be read, revisited, and lovingly shared.',
     isbn: '9780143115267',
     rating: '4.8/5',
     genres: ['adventure'],
@@ -14,5 +13,7 @@ export const works = [
     coverType: 'paperback',
     publishedYear: 2025,
     reviews: 5,
+    purchaseLink:
+      'https://ichangworks.gumroad.com/l/barry-and-the-wisdom-of-the-meadow',
   },
 ];

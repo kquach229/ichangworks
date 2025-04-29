@@ -7,16 +7,16 @@ const Navbar = () => {
     <div className='flex flex-col justify-center w-full h-32'>
       <div className='text-center flex justify-between'>
         <div />
-        <h3>IChangWorks</h3>
+        <Link href='/'>
+          <h3>IChang Works</h3>
+        </Link>
+
         <div>
           <ThemeToggler />
         </div>
       </div>
       <div className='mx-auto space-x-10 mt-5'>
-        <Link href={'/wellness'}>WELLNESS</Link>
-        <Link href={'/beauty'}>BEAUTY</Link>
-        <Link href={'/fitness'}>FITNESS</Link>
-        <Link href={'/shop'}>SHOP</Link>
+        <Link href={'https://ichangworks.gumroad.com/'}>Products</Link>
       </div>
     </div>
   );
