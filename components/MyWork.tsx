@@ -29,7 +29,7 @@ const MyWork = () => {
               </CardContent>
               <CardFooter>
                 <Link href={`/work-details/${work.id}`}>
-                  <Button>View</Button>
+                  <Button className='cursor-pointer'>View</Button>
                 </Link>
               </CardFooter>
             </Card>

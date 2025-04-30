@@ -1,6 +1,13 @@
 // app/work/[workId]/page.tsx or page.jsx
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 import { works } from '@/data/data';
 import { cn } from '@/lib/utils';
 import { Star } from 'lucide-react';
@@ -25,8 +32,8 @@ const WorkDetailsPage = async ({ params }) => {
   return (
     <div className='mx-auto p-6 min-h-screen mt-8'>
       <div className='flex flex-col lg:flex-row items-center justify-around gap-16'>
-        <Card className='w-[500px]'>
-          <div className='mx-auto w-[350px] h-[620px] flex justify-center items-center'>
+        <Card className='w-full sm:w-[500px]'>
+          <div className='mx-auto w-[90%] h-auto sm:w-[350px] sm:h-[620px] flex justify-center items-center'>
             <Image
               className='mb-5 mt-5 rounded-sm'
               src={work?.img}
@@ -37,19 +44,49 @@ const WorkDetailsPage = async ({ params }) => {
           </div>
         </Card>
 
-        <div className='place-self-center space-y-10 w-1/2'>
+        <div className='place-self-center space-y-10 w-full lg:w-1/2'>
           <h1 className='text-3xl font-bold mb-2'>{work?.title}</h1>
           <h2 className='text-xl mb-4 text-gray-500'>by {work?.author}</h2>
           <p className='mb-4'>{work?.description}</p>
           <p className='text-sm text-gray-400'>
             Published in {work?.publishedYear}
           </p>
-          <Link
-            className='block mt-5'
-            href={work?.purchaseLink}
-            target='_blank'>
-            <Button>Purchase</Button>
+          <Link className='mt-5' href={work?.purchaseLink} target='_blank'>
+            <Button className='cursor-pointer'>Purchase</Button>
           </Link>
+
+          {/* <div className='w-[80%] mx-auto mt-20'>
+            <Carousel>
+              <CarouselContent>
+                <CarouselItem className='basis-1/3'>
+                  <Image
+                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
+                    width={100}
+                    height={100}
+                    alt='work'
+                  />
+                </CarouselItem>
+                <CarouselItem className='basis-1/3'>
+                  <Image
+                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
+                    width={100}
+                    height={100}
+                    alt='work'
+                  />
+                </CarouselItem>
+                <CarouselItem className='basis-1/3'>
+                  <Image
+                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
+                    width={100}
+                    height={100}
+                    alt='work'
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </div> */}
         </div>
       </div>
     </div>
