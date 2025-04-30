@@ -15,7 +15,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const WorkDetailsPage = async ({ params }) => {
+const WorkDetailsPage = async ({
+  params,
+}: {
+  params: Promise<{ workId: string }>;
+}) => {
   const { workId } = await params;
   const work = works.find((work) => work.id == workId);
 
@@ -34,13 +38,15 @@ const WorkDetailsPage = async ({ params }) => {
       <div className='flex flex-col lg:flex-row items-center justify-around gap-16'>
         <Card className='w-full sm:w-[500px]'>
           <div className='mx-auto w-[90%] h-auto sm:w-[350px] sm:h-[620px] flex justify-center items-center'>
-            <Image
-              className='mb-5 mt-5 rounded-sm'
-              src={work?.img}
-              height={400}
-              width={400}
-              alt='work iamge'
-            />
+            {work?.img && (
+              <Image
+                className='mb-5 mt-5 rounded-sm'
+                src={work?.img}
+                height={400}
+                width={400}
+                alt='work iamge'
+              />
+            )}
           </div>
         </Card>
 
@@ -51,7 +57,10 @@ const WorkDetailsPage = async ({ params }) => {
           <p className='text-sm text-gray-400'>
             Published in {work?.publishedYear}
           </p>
-          <Link className='mt-5' href={work?.purchaseLink} target='_blank'>
+          <Link
+            className='mt-5'
+            href={work?.purchaseLink || ''}
+            target='_blank'>
             <Button className='cursor-pointer'>Purchase</Button>
           </Link>
 

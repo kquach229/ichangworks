@@ -1,6 +1,6 @@
 export const works = [
   {
-    id: 1,
+    id: '1',
     title: 'Barry and the Wisdom of the Meadow',
     author: 'Aichang Cai',
     img: '/barry_and_the_wisdom_of_the_meadow.jpg',

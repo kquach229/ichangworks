@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='mx-auto space-x-10 mt-5'>
-        <Link href={'https://ichangworks.gumroad.com/'}>Products</Link>
+        <Link href={'https://ichangworks.gumroad.com/'}>PRODUCTS</Link>
       </div>
       <Separator />
     </div>
