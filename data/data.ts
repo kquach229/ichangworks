@@ -26,6 +26,11 @@ export const works = [
     title: 'The Way Back to Calm',
     author: 'Aichang Cai',
     img: '/thewaybacktocalm.jpg',
+    features: [
+      'Print length: 120 pages',
+      'Item Weight: 8.3 ounces',
+      'Dimensions: 6 x 0.3 x 9 inches',
+    ],
     carouselImages: [
       '/thewaybacktocalm.jpg',
       '/waybacktocalm1.jpg',
@@ -45,6 +50,13 @@ export const works = [
     title: 'Ink & Intuition',
     author: 'Aichang Cai',
     img: '/ink&intuition.jpg',
+    features: [
+      'Size: 5.5"x 8.5" – easy to carry in bags and backpacks',
+      '160 lined pages (60 sheets) on cream paper',
+      'Soft matte cover with a gentle lavender meadow watercolor design',
+      'Hardcover, minimalist, and aesthetic—perfect for any setting',
+      'Ideal for teens, women, students, and creatives of all kinds',
+    ],
     carouselImages: [
       '/ink&intuition.jpg',
       '/ink&intuition1.jpg',
@@ -66,6 +78,13 @@ export const works = [
     title: 'Whispers In the Wind - Hard Cover Lined Journal Notebook',
     author: 'Aichang Cai',
     img: '/whispersinthewind.jpg',
+    features: [
+      'Size: 5.5"x 8.5" – easy to carry in bags and backpacks',
+      '160 lined pages (60 sheets) on cream paper',
+      'Soft matte cover with a gentle lavender meadow watercolor design',
+      'Hardcover, minimalist, and aesthetic—perfect for any setting',
+      'Ideal for teens, women, students, and creatives of all kinds',
+    ],
     carouselImages: ['/whispersinthewind.jpg', '/whispersinthewind1.jpg'],
     description: `<p>A Peaceful Lined Notebook for Journaling, Study, Prayer, or Everyday Notes
 Let your thoughts drift gently across the page with Whispers in the Wind, a beautifully designed lined journal inspired by calm meadows. Whether you're journaling your emotions, taking study notes, planning your day, or reflecting on scripture, this soft watercolor cover sets the tone for peaceful, mindful writing.</p>`,
@@ -80,6 +99,14 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     title: 'Fluffy Thoughts - 7.5"x9.25" lined Journal',
     author: 'Aichang Cai',
     img: '/fluffythoughts.jpg',
+    features: [
+      'Size: 7.5” x 9.25”, roomy enough for writing, compact enough for bags',
+      '120 lined pages for endless thoughts and creativity',
+      'Soft matte cover with a pink background and charming white bunny cartoon',
+      'Lightweight and fun, perfect for school, journaling, or quiet time',
+      'Great for teens and anyone who loves cute, aesthetic notebooks',
+      'Gratitude journaling or secret thoughts',
+    ],
     carouselImages: [
       '/fluffythoughts.jpg',
       '/fluffythoughts1.jpg',
@@ -99,6 +126,13 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     title: 'Whimsical Wildlife - Animal Coloring Book',
     author: 'Aichang Cai',
     img: '/whimsicalwildlife.jpg',
+    features: [
+      '8.5"x8.5", 30 unique animal illustrations filled with flowers, trees, and animals',
+      'Single-sided pages to prevent bleed-through and make every creation gift-ready',
+      'Just-right level of detail (easy enough for beginners, inspiring enough to grow with)',
+      'A calming, creative outlet that can help reduce anxiety and boost confidence',
+      'Perfect for relaxation, after-school wind-downs, or rainy-day fun',
+    ],
     carouselImages: [
       '/whimsicalwildlife.jpg',
       '/whimsicalwildlife1.jpg',
