@@ -11,20 +11,20 @@ const MyWork = () => {
   return (
     <div>
       <h4 className='mb-5'>Books</h4>
-      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 place-items-center sm:place-items-start'>
         {books &&
           books.map((book) => (
             <Card
               key={book.id}
-              className='w-[320px] flex flex-col justify-around'>
+              className='w-[320px] flex flex-col justify-between'>
               <CardHeader>
-                <span className='text-gray-500 text-md text-center'>
+                <span className='text-foreground text-md text-center'>
                   {book.title}
                 </span>
               </CardHeader>
               <CardContent>
                 <Image
-                  className='rounded-sm w-full'
+                  className='rounded-sm object-cover mx-auto w-full h-[400px]'
                   src={book.img}
                   height={200}
                   width={200}
@@ -42,22 +42,22 @@ const MyWork = () => {
           ))}
       </div>
 
-      <div className='mt-30'>
+      <div className='mt-30 mx-auto'>
         <h4 className='mb-5'>Journals</h4>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 place-items-center sm:place-items-start'>
           {journals &&
             journals.map((journal) => (
               <Card
                 key={journal.id}
                 className='w-[320px] flex flex-col justify-between'>
                 <CardHeader>
-                  <span className='text-gray-500 text-md text-center'>
+                  <span className='text-foreground text-md text-center'>
                     {journal.title}
                   </span>
                 </CardHeader>
                 <CardContent>
                   <Image
-                    className='rounded-sm w-full'
+                    className='rounded-sm object-cover mx-auto w-full h-[400px]'
                     src={journal.img}
                     height={200}
                     width={200}
