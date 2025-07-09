@@ -56,7 +56,9 @@ const WorkDetailsPage = async ({
                 className='mt-5'
                 href={work?.gumroadPurchaseLink || ''}
                 target='_blank'>
-                <Button className='cursor-pointer'>Purchase E-Book</Button>
+                <Button className='cursor-pointer text-background'>
+                  Purchase E-Book
+                </Button>
               </Link>
             )}
 
@@ -65,7 +67,7 @@ const WorkDetailsPage = async ({
                 className='mt-5'
                 href={work?.amazonPurchaseLink || ''}
                 target='_blank'>
-                <Button className='cursor-pointer bg-[#ffd813] hover:bg-amber-200'>
+                <Button className='cursor-pointer text-background bg-[#ffd813] hover:bg-amber-200'>
                   Purchase Paperback
                   <FaAmazon />
                 </Button>
