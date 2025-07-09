@@ -75,38 +75,21 @@ const WorkDetailsPage = async ({
             )}
           </div>
 
-          {/* <div className='w-[80%] mx-auto mt-20'>
-            <Carousel>
-              <CarouselContent>
-                <CarouselItem className='basis-1/3'>
-                  <Image
-                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
-                    width={100}
-                    height={100}
-                    alt='work'
-                  />
-                </CarouselItem>
-                <CarouselItem className='basis-1/3'>
-                  <Image
-                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
-                    width={100}
-                    height={100}
-                    alt='work'
-                  />
-                </CarouselItem>
-                <CarouselItem className='basis-1/3'>
-                  <Image
-                    src={'/barry_and_the_wisdom_of_the_meadow.jpg'}
-                    width={100}
-                    height={100}
-                    alt='work'
-                  />
-                </CarouselItem>
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
-          </div> */}
+          {work?.carouselImages && (
+            <div className='w-[80%] mx-auto mt-20'>
+              <Carousel>
+                <CarouselContent>
+                  {work.carouselImages.map((item) => (
+                    <CarouselItem className='basis-1/3'>
+                      <Image src={item} width={100} height={100} alt='work' />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
+            </div>
+          )}
         </div>
       </div>
     </div>

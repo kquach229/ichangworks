@@ -26,6 +26,11 @@ export const works = [
     title: 'The Way Back to Calm',
     author: 'Aichang Cai',
     img: '/thewaybacktocalm.jpg',
+    carouselImages: [
+      '/thewaybacktocalm.jpg',
+      '/waybacktocalm1.jpg',
+      '/waybacktocalm2.jpg',
+    ],
     description: `<p>This gentle 12-week guided journal is here to help you pause, breathe, and realign with what truly matters. Thoughtfully created to ease stress and shift unhealthy patterns, this journal blends self-reflection with soft CBT-based prompts—designed for anyone ready to care for themselves more gently.
 </p>
 
@@ -40,6 +45,11 @@ export const works = [
     title: 'Ink & Intuition',
     author: 'Aichang Cai',
     img: '/ink&intuition.jpg',
+    carouselImages: [
+      '/ink&intuition.jpg',
+      '/ink&intuition1.jpg',
+      '/ink&intuition2.jpg',
+    ],
     description: `<p>A quiet space for everything that matters.
 </p>
 
@@ -56,6 +66,7 @@ export const works = [
     title: 'Whispers In the Wind - Hard Cover Lined Journal Notebook',
     author: 'Aichang Cai',
     img: '/whispersinthewind.jpg',
+    carouselImages: ['/whispersinthewind.jpg', '/whispersinthewind1.jpg'],
     description: `<p>A Peaceful Lined Notebook for Journaling, Study, Prayer, or Everyday Notes
 Let your thoughts drift gently across the page with Whispers in the Wind, a beautifully designed lined journal inspired by calm meadows. Whether you're journaling your emotions, taking study notes, planning your day, or reflecting on scripture, this soft watercolor cover sets the tone for peaceful, mindful writing.</p>`,
 
@@ -69,6 +80,11 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     title: 'Fluffy Thoughts - 7.5"x9.25" lined Journal',
     author: 'Aichang Cai',
     img: '/fluffythoughts.jpg',
+    carouselImages: [
+      '/fluffythoughts.jpg',
+      '/fluffythoughts1.jpg',
+      '/fluffythoughts2.jpg',
+    ],
     description: `<p>Let your imagination hop free with Fluffy Thoughts, a soft and cheerful lined notebook perfect for capturing all your notes, doodles, dreams, and daily thoughts. With its adorable white bunny design, pastel pink cover, and fully pink-colored interior pages, this notebook brings a touch of cuteness to every corner of your day.</p>
     <p>Each page is a soft pink hue, making writing feel a little more fun, a little more magical, and a lot more you.
 
@@ -83,6 +99,11 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     title: 'Whimsical Wildlife - Animal Coloring Book',
     author: 'Aichang Cai',
     img: '/whimsicalwildlife.jpg',
+    carouselImages: [
+      '/whimsicalwildlife.jpg',
+      '/whimsicalwildlife1.jpg',
+      '/whimsicalwildlife2.jpg',
+    ],
     description: `<p>Color. Relax. Imagine.
 Step into a peaceful world with the Whimsical Wildlife Coloring Book! Designed especially for kids ages 6–10, this charming collection of 30 playful animal scenes offers the perfect mix of easy-to-color shapes and delightful details that spark creativity without overwhelming young artists.
 </p>
