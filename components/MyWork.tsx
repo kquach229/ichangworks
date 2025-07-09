@@ -31,9 +31,11 @@ const MyWork = () => {
                   alt='barry the bunny'
                 />
               </CardContent>
-              <CardFooter>
-                <Link href={`/work-details/${book.id}`}>
-                  <Button className='cursor-pointer'>View</Button>
+              <CardFooter className='w-full'>
+                <Link
+                  className='mx-auto w-full'
+                  href={`/work-details/${book.id}`}>
+                  <Button className='cursor-pointer w-full'>View</Button>
                 </Link>
               </CardFooter>
             </Card>
