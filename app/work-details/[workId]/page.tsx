@@ -78,10 +78,16 @@ const WorkDetailsPage = async ({
           {work?.carouselImages && (
             <div className='w-[80%] mx-auto mt-20'>
               <Carousel>
-                <CarouselContent>
+                <CarouselContent className='flex items-center'>
                   {work.carouselImages.map((item) => (
                     <CarouselItem className='basis-1/3'>
-                      <Image src={item} width={200} height={200} alt='work' />
+                      <Image
+                        className='w-full h-[250px] object-contain'
+                        src={item}
+                        width={200}
+                        height={200}
+                        alt='work'
+                      />
                     </CarouselItem>
                   ))}
                 </CarouselContent>
