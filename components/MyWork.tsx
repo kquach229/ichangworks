@@ -14,7 +14,7 @@ const MyWork = () => {
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8'>
         {books &&
           books.map((book) => (
-            <Card key={book.id} className='max-w-[200]'>
+            <Card key={book.id} className='w-[320px]'>
               <CardHeader>
                 <span className='text-gray-500 text-md text-center'>
                   {book.title}
@@ -43,7 +43,7 @@ const MyWork = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-8'>
           {journals &&
             journals.map((journal) => (
-              <Card key={journal.id} className='max-w-[200]'>
+              <Card key={journal.id} className='w-[320px]'>
                 <CardHeader>
                   <span className='text-gray-500 text-md text-center'>
                     {journal.title}
