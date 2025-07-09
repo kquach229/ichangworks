@@ -1,6 +1,7 @@
 // app/work/[workId]/page.tsx or page.jsx
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { FaAmazon } from 'react-icons/fa';
 import {
   Carousel,
   CarouselContent,
@@ -9,8 +10,6 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import { works } from '@/data/data';
-import { cn } from '@/lib/utils';
-import { Star } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -22,16 +21,6 @@ const WorkDetailsPage = async ({
 }) => {
   const { workId } = await params;
   const work = works.find((work) => work.id == workId);
-
-  // const stars = Array.from({ length: 5 }, (_, i) => (
-  //   <Star
-  //     key={i}
-  //     className={cn(
-  //       'h-4 w-4',
-  //       i < work?.reviews ? 'fill-yellow-400 text-yellow-400' : 'text-gray-300'
-  //     )}
-  //   />
-  // ));
 
   return (
     <div className='mx-auto p-6 min-h-screen mt-8'>
@@ -53,16 +42,36 @@ const WorkDetailsPage = async ({
         <div className='place-self-center space-y-10 w-full lg:w-1/2'>
           <h1 className='text-3xl font-bold mb-2'>{work?.title}</h1>
           <h2 className='text-xl mb-4 text-gray-500'>by {work?.author}</h2>
-          <p className='mb-4'>{work?.description}</p>
+          <div
+            dangerouslySetInnerHTML={{ __html: work?.description! }}
+            className='mb-4'
+          />
           <p className='text-sm text-gray-400'>
             Published in {work?.publishedYear}
           </p>
-          <Link
-            className='mt-5'
-            href={work?.purchaseLink || ''}
-            target='_blank'>
-            <Button className='cursor-pointer'>Purchase</Button>
-          </Link>
+
+          <div className='space-x-5'>
+            {work?.gumroadPurchaseLink && (
+              <Link
+                className='mt-5'
+                href={work?.gumroadPurchaseLink || ''}
+                target='_blank'>
+                <Button className='cursor-pointer'>Purchase E-Book</Button>
+              </Link>
+            )}
+
+            {work?.amazonPurchaseLink && (
+              <Link
+                className='mt-5'
+                href={work?.amazonPurchaseLink || ''}
+                target='_blank'>
+                <Button className='cursor-pointer bg-[#ffd813] hover:bg-amber-200'>
+                  Purchase Paperback
+                  <FaAmazon />
+                </Button>
+              </Link>
+            )}
+          </div>
 
           {/* <div className='w-[80%] mx-auto mt-20'>
             <Carousel>
