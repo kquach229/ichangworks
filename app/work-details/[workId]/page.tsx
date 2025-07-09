@@ -81,7 +81,7 @@ const WorkDetailsPage = async ({
                 <CarouselContent>
                   {work.carouselImages.map((item) => (
                     <CarouselItem className='basis-1/3'>
-                      <Image src={item} width={100} height={100} alt='work' />
+                      <Image src={item} width={200} height={200} alt='work' />
                     </CarouselItem>
                   ))}
                 </CarouselContent>
