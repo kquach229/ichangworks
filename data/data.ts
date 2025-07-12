@@ -122,7 +122,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
   },
   {
     id: '6',
-    type: 'journal',
+    type: 'book',
     title: 'Whimsical Wildlife - Animal Coloring Book',
     author: 'Aichang Cai',
     img: '/whimsicalwildlife.jpg',
