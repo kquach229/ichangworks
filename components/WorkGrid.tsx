@@ -3,14 +3,15 @@ import { Card, CardContent, CardFooter, CardHeader } from './ui/card';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from './ui/button';
+import { IItem } from './MyWork';
 
-const WorkGrid = ({ title, items }) => {
+const WorkGrid = ({ title, items }: { title: string; items: IItem[] }) => {
   return (
     <div className='mt-30 mx-auto'>
       <h4 className='mb-5 text-center sm:text-left'>{title}</h4>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-10 mt-8 place-items-center sm:place-items-start'>
         {items &&
-          items.map((item) => (
+          items.map((item: IItem) => (
             <Card
               key={item.id}
               className='w-[330px] flex flex-col justify-between'>

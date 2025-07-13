@@ -1,6 +1,6 @@
 export const works = [
   {
-    id: '1',
+    id: 1,
     type: 'book',
     title: 'Barry and the Wisdom of the Meadow',
     author: 'Aichang Cai',
@@ -27,7 +27,7 @@ export const works = [
     amazonPurchaseLink: 'https://a.co/d/9RYtttN',
   },
   {
-    id: '2',
+    id: 2,
     type: 'journal',
     title: 'The Way Back to Calm - Wellness Journal',
     author: 'Aichang Cai',
@@ -51,7 +51,7 @@ export const works = [
     amazonPurchaseLink: 'https://a.co/d/iihw8PG',
   },
   {
-    id: '3',
+    id: 3,
     type: 'journal',
     title: 'Ink & Intuition',
     author: 'Aichang Cai',
@@ -79,7 +79,7 @@ export const works = [
       'https://www.amazon.com/Ink-Intuition-Minimalist-Reflection-Stillness/dp/B0F92C3LX6?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.imv6shvH61rRSCQ3ZVs34fI9zuF3vywk9OYKE56qGXFNaltVvbSElDYg9M3ij2pN3gnwAgYd0pCJCKynwETugBydSfV_1tuQqxCdhJTss25Ct7q5d5xQ5dLjaKLV8BBY.rvahLRkQPa9OqkiTOm4oFxkCEXuM-HKfAzxtegunxmo&dib_tag=AUTHOR',
   },
   {
-    id: '4',
+    id: 4,
     type: 'journal',
     title: 'Whispers In the Wind',
     author: 'Aichang Cai',
@@ -100,7 +100,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
       'https://www.amazon.com/dp/B0FBLPY5TF?ref=cm_sw_r_ffobk_cp_ud_dp_E3MEXPQ3MZWV6KFBH2DQ&ref_=cm_sw_r_ffobk_cp_ud_dp_E3MEXPQ3MZWV6KFBH2DQ&social_share=cm_sw_r_ffobk_cp_ud_dp_E3MEXPQ3MZWV6KFBH2DQ&bestFormat=true&previewDohEventScheduleTesting=C&csmig=1',
   },
   {
-    id: '5',
+    id: 5,
     type: 'journal',
     title: 'Fluffy Thoughts - Lined Journal',
     author: 'Aichang Cai',
@@ -127,7 +127,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     amazonPurchaseLink: 'https://a.co/d/g8coTv3',
   },
   {
-    id: '6',
+    id: 6,
     type: 'book',
     title: 'Whimsical Wildlife - Animal Coloring Book',
     author: 'Aichang Cai',
@@ -153,7 +153,7 @@ Step into a peaceful world with the Whimsical Wildlife Coloring Book! Designed e
     amazonPurchaseLink: 'https://a.co/d/a3ITPVI',
   },
   {
-    id: '7',
+    id: 7,
     type: 'nursing',
     title:
       'Becoming an RN - Lecture / Review Notebook (Hard cover / Paperback)',
@@ -191,7 +191,7 @@ It’s a companion on your journey to becoming the nurse you’ve always dreamed
       'https://www.amazon.com/Becoming-nursing-student-study-notebook/dp/B0FBKJS26Z/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.H98GEtozBCF0oQ6iwGoUo5BIDGQaeMyKJwTHUSlbdtDApTLzY4XjmbP_npoDvfZgdKutcjY6GmF9pN-GIni2BAzGcz7I0Vl4K3XfvZ-Wd5h7v9YGlqA7MFrVhFR5bhT2QHpXrJ4KNJwV6xVkom0bHobBkQR7dLtiC98EsDxlBDVKHHfOO7U68rSnOgApZ2vAud7SAEm-XqIAmaJPDODlnuuTEj1lXn2ulPVjRRyOjhs.S-tdgZgq3-EpocAGUQApgdwaWNRAkGX7MsAQVJKHAFw&qid=1752435817&sr=8-3',
   },
   {
-    id: '8',
+    id: 8,
     type: 'nursing',
     title: 'Becoming an RN - Clinical Notebook (5x8 Pocket-size)',
     author: 'Aichang Cai',
