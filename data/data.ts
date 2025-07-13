@@ -29,7 +29,7 @@ export const works = [
   {
     id: '2',
     type: 'journal',
-    title: 'The Way Back to Calm - Soft Cover Journal',
+    title: 'The Way Back to Calm - Wellness Journal',
     author: 'Aichang Cai',
     img: '/the_way_back_to_calm_display.jpg',
     features: [
@@ -53,7 +53,7 @@ export const works = [
   {
     id: '3',
     type: 'journal',
-    title: 'Ink Intuition - Soft Cover Wellness Journal',
+    title: 'Ink & Intuition',
     author: 'Aichang Cai',
     img: '/ink_and_intuition_display.jpg',
     features: [
@@ -81,7 +81,7 @@ export const works = [
   {
     id: '4',
     type: 'journal',
-    title: 'Whispers In the Wind - Hard Cover Lined Journal Notebook',
+    title: 'Whispers In the Wind',
     author: 'Aichang Cai',
     img: '/whispers_in_the_wind_display.jpg',
     features: [
@@ -102,7 +102,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
   {
     id: '5',
     type: 'journal',
-    title: 'Fluffy Thoughts - 7.5"x9.25" lined Journal',
+    title: 'Fluffy Thoughts - Lined Journal',
     author: 'Aichang Cai',
     img: '/fluffy_thoughts_display.jpg',
     features: [
@@ -156,7 +156,7 @@ Step into a peaceful world with the Whimsical Wildlife Coloring Book! Designed e
     id: '7',
     type: 'nursing',
     title:
-      'Becoming an RN, Nursing Student Lecture/ Review Notebook (Available in Hard cover and Soft cover)',
+      'Becoming an RN - Lecture / Review Notebook (Hard cover / Paperback)',
     author: 'Aichang Cai',
     img: '/becoming_an_rn_display1.jpg',
     features: [
@@ -193,7 +193,7 @@ It’s a companion on your journey to becoming the nurse you’ve always dreamed
   {
     id: '8',
     type: 'nursing',
-    title: 'Becoming an RN Clinical Notebook: 5x8 Pocket-size',
+    title: 'Becoming an RN - Clinical Notebook (5x8 Pocket-size)',
     author: 'Aichang Cai',
     img: '/becoming_an_rn_clinical_display.jpg',
     features: [
@@ -225,6 +225,6 @@ Created by a practicing nurse who understands the fast pace of clinicals, this p
 
     publishedYear: 2025,
     amazonPurchaseLink:
-      'https://www.amazon.com/Becoming-nursing-student-study-notebook/dp/B0FBKJS26Z/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.H98GEtozBCF0oQ6iwGoUo5BIDGQaeMyKJwTHUSlbdtDApTLzY4XjmbP_npoDvfZgdKutcjY6GmF9pN-GIni2BAzGcz7I0Vl4K3XfvZ-Wd5h7v9YGlqA7MFrVhFR5bhT2QHpXrJ4KNJwV6xVkom0bHobBkQR7dLtiC98EsDxlBDVKHHfOO7U68rSnOgApZ2vAud7SAEm-XqIAmaJPDODlnuuTEj1lXn2ulPVjRRyOjhs.S-tdgZgq3-EpocAGUQApgdwaWNRAkGX7MsAQVJKHAFw&qid=1752435817&sr=8-3',
+      'https://www.amazon.com/Becoming-Clinical-Notebook-Pocket-size-docuentation/dp/B0FBL36TBT?ref_=ast_author_dp_rw&dib=eyJ2IjoiMSJ9.NstQBT-GIxO2uAHENEAx5cdVpFjlsQZyo9TB-pUMB_g9s58StB1Ytv7nmitRYESQeGk7K04FFzc2QquzBdVuHX32G3KSLAK_4_P3X_CTDCUIXkEkdb6gNi1kJ_ASu_5i.R9mVa5jU40WtSQeFgABIlWSyhwtNkhI6oubQJb7HUdo&dib_tag=AUTHOR',
   },
 ];

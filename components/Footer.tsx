@@ -10,7 +10,7 @@ const Footer = () => {
       <Separator className='mt-10' />
 
       <div className='inline-flex space-x-5  mt-5 mx-auto'>
-        <Link href={'https://www.instagram.com/charmtsoi/'} target='_blank'>
+        <Link href={'https://www.instagram.com/ichangworks/'} target='_blank'>
           <Instagram />
         </Link>
       </div>
