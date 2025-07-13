@@ -4,7 +4,13 @@ export const works = [
     type: 'book',
     title: 'Barry and the Wisdom of the Meadow',
     author: 'Aichang Cai',
-    img: '/barry_and_the_wisdom_of_the_meadow.jpg',
+    img: '/barry_display.jpg',
+    carouselImages: [
+      '/barry_display.jpg',
+      '/barry1.jpg',
+      '/barry3.jpg',
+      '/barry2.jpg',
+    ],
     description: `<p>Barry and the Wisdom of the Meadow is beautifully crafted storybook that invites readers into a world of warmth, wonder, and meaningful reflection. Follow Barry, a curious and kind-hearted bunny, along with his friends: Daisy the thoughtful deer, Max the playful monkey, and Oliver the wise owl, as they journey through a peaceful meadow, uncovering life’s small but lasting lessons.</p>
 
 <p>This print edition features soft, whimsical art that brings the meadow and its beloved characters to life in every scene. Across eight themed chapters, including courage, friendship, self-discovery, kindness, responsibility, problem-solving, gratitude, and respect, young readers ages 4–8 will find simple yet profound insights woven into every adventure.</p>
@@ -23,9 +29,9 @@ export const works = [
   {
     id: '2',
     type: 'journal',
-    title: 'The Way Back to Calm',
+    title: 'The Way Back to Calm - Soft Cover Journal',
     author: 'Aichang Cai',
-    img: '/thewaybacktocalm.jpg',
+    img: '/the_way_back_to_calm_display.jpg',
     features: [
       'Print length: 120 pages',
       'Item Weight: 8.3 ounces',
@@ -47,9 +53,9 @@ export const works = [
   {
     id: '3',
     type: 'journal',
-    title: 'Ink & Intuition',
+    title: 'Ink Intuition - Soft Cover Wellness Journal',
     author: 'Aichang Cai',
-    img: '/ink&intuition.jpg',
+    img: '/ink_and_intuition_display.jpg',
     features: [
       'Size: 5.5"x 8.5" – easy to carry in bags and backpacks',
       '160 lined pages (60 sheets) on cream paper',
@@ -77,7 +83,7 @@ export const works = [
     type: 'journal',
     title: 'Whispers In the Wind - Hard Cover Lined Journal Notebook',
     author: 'Aichang Cai',
-    img: '/whispersinthewind.jpg',
+    img: '/whispers_in_the_wind_display.jpg',
     features: [
       'Size: 5.5"x 8.5" – easy to carry in bags and backpacks',
       '160 lined pages (60 sheets) on cream paper',
@@ -98,7 +104,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     type: 'journal',
     title: 'Fluffy Thoughts - 7.5"x9.25" lined Journal',
     author: 'Aichang Cai',
-    img: '/fluffythoughts.jpg',
+    img: '/fluffy_thoughts_display.jpg',
     features: [
       'Size: 7.5” x 9.25”, roomy enough for writing, compact enough for bags',
       '120 lined pages for endless thoughts and creativity',
@@ -125,7 +131,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
     type: 'book',
     title: 'Whimsical Wildlife - Animal Coloring Book',
     author: 'Aichang Cai',
-    img: '/whimsicalwildlife.jpg',
+    img: '/whimsical_wildlife_display.jpg',
     features: [
       '8.5"x8.5", 30 unique animal illustrations filled with flowers, trees, and animals',
       'Single-sided pages to prevent bleed-through and make every creation gift-ready',
@@ -134,7 +140,7 @@ Let your thoughts drift gently across the page with Whispers in the Wind, a beau
       'Perfect for relaxation, after-school wind-downs, or rainy-day fun',
     ],
     carouselImages: [
-      '/whimsicalwildlife.jpg',
+      '/whimsical_wildlife_display.jpg',
       '/whimsicalwildlife1.jpg',
       '/whimsicalwildlife2.jpg',
     ],
