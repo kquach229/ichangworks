@@ -20,7 +20,7 @@ const WorkDetailsPage = async ({
   params: Promise<{ workId: string }>;
 }) => {
   const { workId } = await params;
-  const work = works.find((work) => work.id == workId);
+  const work = works.find((work) => work.id == Number(workId));
 
   return (
     <div className='mx-auto p-6 min-h-screen mt-8'>
