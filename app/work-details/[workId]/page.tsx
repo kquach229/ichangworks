@@ -24,7 +24,7 @@ const WorkDetailsPage = async ({
 
   return (
     <div className='mx-auto p-6 min-h-screen mt-8'>
-      <div className='flex flex-col lg:flex-row items-center justify-around gap-16'>
+      <div className='flex flex-col lg:flex-row items-start justify-around gap-16'>
         <Card className='w-full sm:w-[500px]'>
           <div className='mx-auto w-[90%] h-auto sm:w-[350px] sm:h-[620px] flex justify-center items-center'>
             {work?.img && (
@@ -68,7 +68,7 @@ const WorkDetailsPage = async ({
                 href={work?.amazonPurchaseLink || ''}
                 target='_blank'>
                 <Button className='cursor-pointer text-background bg-[#ffd813] hover:bg-amber-200'>
-                  Purchase Paperback
+                  Purchase on Amazon
                   <FaAmazon />
                 </Button>
               </Link>

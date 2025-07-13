@@ -152,4 +152,79 @@ Step into a peaceful world with the Whimsical Wildlife Coloring Book! Designed e
     publishedYear: 2025,
     amazonPurchaseLink: 'https://a.co/d/a3ITPVI',
   },
+  {
+    id: '7',
+    type: 'nursing',
+    title:
+      'Becoming an RN, Nursing Student Lecture/ Review Notebook (Available in Hard cover and Soft cover)',
+    author: 'Aichang Cai',
+    img: '/becoming_an_rn_display1.jpg',
+    features: [
+      'Lab Value Reference Page: Includes a quick-reference section for common lab values to reinforce your understanding. (For reference only. Always follow your school, textbook, or facility guidelines)',
+      'Clean, Structured Templates: Designed for efficient learning, each layout allows you to record disease overviews, treatment/medications, nursing considerations, and patient education notes, all in one place',
+      "Flexible Note-Taking Layouts: Each page includes a space to label your session as either a Lecture or Review, helping you stay organized and focused whether you're in class or studying on your own",
+      'Why Nursing Students Love It: Helps reduce study overwhelm by keeping notes consistent and organized',
+      'Boost confidence and progress with every filled page',
+      'Designed with a clean layout for easy notetaking, highlighting, and review',
+      'Includes thoughtful prompts for developing critical thinking',
+      'Makes a thoughtful gift for any nursing student or future nurse',
+    ],
+    carouselImages: [
+      '/becoming_an_rn_display1.jpg',
+      '/becoming_a_nurse_other_cover.jpg',
+      '/becoming_an_rn1.jpg',
+      '/becoming_an_rn2.jpg',
+    ],
+    description: `<p>
+    Nursing Student Notebook. For the Future RN Who’s Proud to Learn
+Created by a nurse who’s been right where you are, this 120-page nursing student notebook is designed to keep you focused, organized, and proud of your progress. Whether you're in your first semester or preparing for boards, this notebook is a must-have companion for your nursing journey.
+
+</p>
+<p>
+Whether you're reviewing for exams or capturing class notes, this notebook is more than just paper.
+It’s a companion on your journey to becoming the nurse you’ve always dreamed of.
+</p>
+`,
+
+    publishedYear: 2025,
+    amazonPurchaseLink:
+      'https://www.amazon.com/Becoming-nursing-student-study-notebook/dp/B0FBKJS26Z/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.H98GEtozBCF0oQ6iwGoUo5BIDGQaeMyKJwTHUSlbdtDApTLzY4XjmbP_npoDvfZgdKutcjY6GmF9pN-GIni2BAzGcz7I0Vl4K3XfvZ-Wd5h7v9YGlqA7MFrVhFR5bhT2QHpXrJ4KNJwV6xVkom0bHobBkQR7dLtiC98EsDxlBDVKHHfOO7U68rSnOgApZ2vAud7SAEm-XqIAmaJPDODlnuuTEj1lXn2ulPVjRRyOjhs.S-tdgZgq3-EpocAGUQApgdwaWNRAkGX7MsAQVJKHAFw&qid=1752435817&sr=8-3',
+  },
+  {
+    id: '8',
+    type: 'nursing',
+    title: 'Becoming an RN Clinical Notebook: 5x8 Pocket-size',
+    author: 'Aichang Cai',
+    img: '/becoming_an_rn_clinical_display.jpg',
+    features: [
+      'Pocket-Sized & Portable (5x8)',
+      'Small enough to slip into your scrubs or clinical tote, always within reach when you need it most',
+      'Includes a Bonus Lab Reference Page: Quickly access common lab values with a built-in reference sheet, no need to search your phone or textbooks during rounds',
+      'Simplified Layouts for Fast Documentation: Designed with real-world clinical needs in mind, the easy-to-complete templates help you efficiently record patient care, medications, assessments, and priorities, without the overwhelm',
+      'Created by a Nurse Who’s Been There: Every section is thoughtfully crafted by a nurse who’s walked in your shoes and understands what truly matters in the clinical setting',
+      'Stay Organized & Professional: Streamline your documentation across different rotations with a system that keeps your notes sharp and your thinking focused',
+      'Boosts Clinical Confidence & Critical Thinking: Prompts encourage clinical reasoning, pattern recognition, and efficient communication; skills that are vital both on the floor and for the NCLEX',
+      'Clean, Professional Layout: No clutter. No fluff. Just what you need to succeed in clinical',
+      'Perfect For: Nursing Students, Clinical Rotations & Preceptorships, Simulation Labs & Study Groups, and Nursing School Gifts or Graduation Presents',
+    ],
+    carouselImages: [
+      '/becoming_an_rn_clinical_display.jpg',
+      '/becoming_an_rn_clinical_1.jpg',
+      '/becoming_an_rn_clinical_2.jpg',
+    ],
+    description: `<p>
+5x8 Pocket-Sized Notebook for Quick Clinical Documentation Simplified Templates for Patient Care, Medication Notes, Assessments & More
+</p>
+<p>
+
+Designed by a Nurse, for Future Nurses
+Created by a practicing nurse who understands the fast pace of clinicals, this pocket-sized notebook is built to help nursing students stay organized, focused, and confident at the bedside. Whether you’re in your first semester or nearing graduation, this tool will streamline your documentation and support your learning, right where it counts.
+    
+</p>
+`,
+
+    publishedYear: 2025,
+    amazonPurchaseLink:
+      'https://www.amazon.com/Becoming-nursing-student-study-notebook/dp/B0FBKJS26Z/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.H98GEtozBCF0oQ6iwGoUo5BIDGQaeMyKJwTHUSlbdtDApTLzY4XjmbP_npoDvfZgdKutcjY6GmF9pN-GIni2BAzGcz7I0Vl4K3XfvZ-Wd5h7v9YGlqA7MFrVhFR5bhT2QHpXrJ4KNJwV6xVkom0bHobBkQR7dLtiC98EsDxlBDVKHHfOO7U68rSnOgApZ2vAud7SAEm-XqIAmaJPDODlnuuTEj1lXn2ulPVjRRyOjhs.S-tdgZgq3-EpocAGUQApgdwaWNRAkGX7MsAQVJKHAFw&qid=1752435817&sr=8-3',
+  },
 ];
