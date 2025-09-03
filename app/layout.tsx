@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '../components/Navbar';
 import { ThemeProvider } from '@/components/theme-provider';
 import Footer from '@/components/Footer';
-import { Separator } from '@/components/ui/separator';
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -40,7 +40,7 @@ export default function RootLayout({
           <div className='max-w-[1500px] mx-auto overflow-hidden p-10 w-full'>
             <Navbar />
             {children}
-
+            <Analytics />
             <Footer />
           </div>
         </ThemeProvider>
